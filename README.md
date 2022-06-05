@@ -19,9 +19,12 @@ airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. The 
 parameterised model for classifying those images. This involves
 
   • Implementing the feedforward model (Question 1).
+  
   • Implementing the backpropagation algorithm (gradient computation) (Question 2).
-  • Training the model using stochastic gradient descent and improving the model training with better hyperparameters (Question 3).
+  
+  • Training the model using stochastic gradient descent and improving the model training with better hyper-parameters (Question 3).
+  
   • Using the PyTorch Library to implement the above and experiment with deeper networks (Question 4).
   
-A note on notation: throughout the exercise, notation vi is used to denote the i th element of vector v Questions 1-3 are based on the script ex2 FCnet.py and question 4 is based on the script ex2 pytorch.py. To download the CIFAR-10 dataset please execute the script datasets/get datasets.sh or use the function torchvision.datasets.CIFAR10, as illustrated in the section “Load the CIFAR-10 dataset” in the file ex2 pytorch.py.
+A note on notation: throughout the exercise, notation vi is used to denote the i th element of vector v Questions 1-3 are based on the script ex2_FCnet.py and question 4 is based on the script ex2_pytorch.py. To download the CIFAR-10 dataset please execute the script datasets/get datasets.sh or use the function torchvision.datasets.CIFAR10, as illustrated in the section “Load the CIFAR-10 dataset” in the file ex2_pytorch.py.
 
