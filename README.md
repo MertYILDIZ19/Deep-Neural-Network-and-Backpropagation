@@ -28,11 +28,4 @@ parameterised model for classifying those images. This involves
   
 A note on notation: throughout the exercise, notation vi is used to denote the i th element of vector v Questions 1-3 are based on the script ex2_FCnet.py and question 4 is based on the script ex2_pytorch.py. To download the CIFAR-10 dataset please execute the script datasets/get datasets.sh or use the function torchvision.datasets.CIFAR10, as illustrated in the section “Load the CIFAR-10 dataset” in the file ex2_pytorch.py.
 
-Question 1: Implementing the feedforward model
-In this question we have implemented a two-layered neural network architecture as well as the loss function
-to train it.The ReLU non-linear activation ϕ, applied element-wise on each unit, resulting in the activations
-a
-(2) = ϕ(z
-(2)). The ReLU function has the following form:
-
 
